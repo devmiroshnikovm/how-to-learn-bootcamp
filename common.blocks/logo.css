@@ -1,0 +1,23 @@
+/* задаем общие для лого всех блоков параметры */
+/* это для footer*/
+.logo {
+  height: 32px;
+  width: 228px;
+}
+
+/* это для header place - модификатор, header значение*/
+.logo__place_header {
+  background-image: url("../images/logo_place_header.svg");
+}
+
+.logo__place_header_position_top {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-left: 64px;
+  margin-top: 30px;
+}
+
+.logo__place_footer {
+  background-image: url("../images/logo_place_footer.svg");
+}

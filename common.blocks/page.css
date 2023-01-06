@@ -1,0 +1,43 @@
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* основная идея - отступы регулируютмся на уровне page */
+.page__intent_top-xl {
+  padding-top: 100px;
+}
+
+.page__intent_bottom-xl {
+  padding-bottom: 100px;
+}
+
+.page__intent_top-l {
+  padding-top: 90px;
+}
+
+.page__intent_bottom-l {
+  padding-bottom: 90px;
+}
+
+.page__intent_top-m {
+  padding-top: 60px;
+}
+
+.page__intent_bottom-m {
+  padding-bottom: 60px;
+}
+
+.page__intent_top-s {
+  padding-top: 40px;
+}
+
+.page__intent_bottom-s {
+  padding-bottom: 40px;
+}

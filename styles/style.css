@@ -1,3 +1,448 @@
+.description {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+/*  ______________ */
+.digits {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digits__section-title {
+  width: 60%;
+
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.digits__section-subtitle {
+  width: 60%;
+  text-align: center;
+}
+
+.digits__table {
+  min-width: 1100px;
+  max-width: 1100px;
+}
+
+.digits__table_cell {
+  min-width: 250px;
+  max-width: 250px;
+  margin-top: 60px;
+}
+
+/* ___________*/
+.feynman {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 890px;
+  position: relative;
+}
+
+.feynman__title {
+  max-width: 648px;
+
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+
+  text-align: center;
+
+  margin-top: 100px;
+  margin-bottom: 70px;
+
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+
+  text-align: center;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+
+  position: absolute;
+  bottom: calc(890px / 2);
+  right: 0px;
+
+  margin-right: 48px;
+
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.feynman__main-illustration {
+  height: 637px;
+  width: 867px;
+
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+
+  z-index: -1;
+}
+/*___________________*/
+.footer {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 350px;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer__column {
+  /* тут должны быть общие свойства для столбца */
+  display: flex;
+  flex-direction: column;
+}
+
+/* это модификаторы столбца */
+.footer__column_content_copyright {
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__column_content_info {
+  justify-content: baseline;
+}
+
+.footer__column_content_social {
+  justify-content: baseline;
+}
+
+/* это модификаторы столбца */
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+
+  /* зачем это */
+  margin-top: 18px;
+
+  margin-bottom: 18px;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.footer__column-link-wrap-icon-and-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.footer__column-link_theme_dark {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__social-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 16px;
+  width: 16px;
+}
+
+.footer__theme_dark {
+  background-color: #1f1f1f;
+  color: white;
+}
+/*___________________*/
+.header {
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* for possition child elements not on browser windows but on parent div */
+  position: relative;
+}
+
+.header__title {
+  max-width: 730px;
+  margin-left: 64px;
+
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 388px;
+  margin-left: 64px;
+  margin-bottom: 30px;
+
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  height: 608px;
+  width: 765px;
+
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+
+  background-color: blue;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  margin-top: 64px;
+}
+
+/* модификатор header для изменения фона */
+.header__decoration {
+  background-color: #f2f2f2;
+}
+
+/*___________________*/
+.kaufman {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+  position: relative;
+
+  z-index: -2;
+}
+
+.kaufman_theme_dark {
+  background-color: #1f1f1f;
+}
+
+.kaufman__table {
+  min-width: 1100px;
+  max-width: 1100px;
+  z-index: 1;
+}
+
+.kaufman__table_cell {
+  min-width: 200px;
+  max-width: 200px;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  background-image: url("/images/kaufman-triangle.svg");
+  height: 877px;
+  width: 877px;
+  background-position: center;
+  background-size: cover;
+
+  position: absolute;
+  bottom: 0px;
+  right: -210px;
+
+  z-index: -1;
+}
+/*___________________*/
+/* задаем общие для лого всех блоков параметры */
+/* это для footer*/
+.logo {
+  height: 32px;
+  width: 228px;
+}
+
+/* это для header place - модификатор, header значение*/
+.logo__place_header {
+  background-image: url("/images/logo_place_header.svg");
+}
+
+.logo__place_header_position_top {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-left: 64px;
+  margin-top: 30px;
+}
+
+.logo__place_footer {
+  background-image: url("/images/logo_place_footer.svg");
+}
+
+/*___________________*/
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+/*___________________*/
+.section-title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+/*___________________*/
+
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.table__cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.table_text_theme_dark {
+  color: white;
+}
+
+.table_heading_theme_dark {
+  color: white;
+}
+
+/*___________________*/
+.two-columns {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief {
+  max-width: 175px;
+
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__brief_text-decoration_color {
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+/* выравнивание элементов - задача parent */
+.two-columns__main-text_intent {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+/*___________________*/
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -6,26 +451,38 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
+/* основная идея - отступы регулируютмся на уровне page */
+.page__intent_top-xl {
+  padding-top: 100px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.page__intent_bottom-xl {
+  padding-bottom: 100px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.page__intent_top-l {
+  padding-top: 90px;
+}
+
+.page__intent_bottom-l {
+  padding-bottom: 90px;
+}
+
+.page__intent_top-m {
+  padding-top: 60px;
+}
+
+.page__intent_bottom-m {
+  padding-bottom: 60px;
+}
+
+.page__intent_top-s {
+  padding-top: 40px;
+}
+
+.page__intent_bottom-s {
+  padding-bottom: 40px;
 }

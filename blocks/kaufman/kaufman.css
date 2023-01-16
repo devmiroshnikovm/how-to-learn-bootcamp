@@ -1,0 +1,18 @@
+.kaufman {
+  /* сбрасываем отступы */
+  margin: 0;
+  padding: 0;
+
+  /* add intents */
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: -2;
+
+  background-color: #1f1f1f;
+}

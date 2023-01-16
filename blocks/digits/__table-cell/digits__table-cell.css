@@ -1,0 +1,6 @@
+/* element table_cell */
+.digits__table-cell {
+  min-width: 250px;
+  max-width: 250px;
+  margin-top: 60px;
+}

@@ -1,0 +1,13 @@
+/* element paragraph */
+.two-columns__paragraph {
+  margin: 0;
+  padding: 0;
+
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.two-columns__paragraph:nth-child(2) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

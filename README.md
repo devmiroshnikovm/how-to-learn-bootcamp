@@ -2,7 +2,7 @@
 
 ### High Priority
 
-- [x] check review errors
+- [ ] check review errors
 
 ### Low Priority
 

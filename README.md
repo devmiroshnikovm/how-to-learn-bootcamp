@@ -216,7 +216,6 @@ Use git clone to get copy of the project.
 ### Prerequisites
 
 Live server vscode extension to run project locally.
-EditorConfig vscode extension to format code. See .editorconfig
 
 ### Installing
 

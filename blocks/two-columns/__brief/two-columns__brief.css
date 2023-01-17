@@ -1,5 +1,6 @@
 /* element brief */
 .two-columns__brief {
+  /* обнуляем отступы у текстового элемента */
   margin: 0;
   padding: 0;
 

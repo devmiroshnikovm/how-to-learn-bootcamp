@@ -1,8 +1,8 @@
 /* element subtitle */
 .feynman__subtitle {
-  /* обнуляем отступы у элемента
-  делаем по умолчанию */
+  /* обнуляем отступы у текстового элемента */
   margin: 0;
+  padding: 0;
 
   line-height: 51px;
   font-size: 36px;

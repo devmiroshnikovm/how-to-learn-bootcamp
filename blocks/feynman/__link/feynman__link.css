@@ -5,8 +5,8 @@
   font-weight: normal;
   position: absolute;
   bottom: calc(890px / 2);
-  right: 0px;
-  margin-right: 48px;
+  right: 48px;
+
   color: #2f80ed;
   text-decoration: none;
 }

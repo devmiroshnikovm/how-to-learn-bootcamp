@@ -1,5 +1,9 @@
 /* element subtitle */
 .feynman__subtitle {
+  /* обнуляем отступы у элемента
+  делаем по умолчанию */
+  margin: 0;
+
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;

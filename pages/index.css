@@ -1,4 +1,16 @@
 @import url(../vendor/normalize.css);
+/*
+у текстовых элементов мы сбрасываем отступы
+section-title
+section-subtitle
+ - это основные блоки в которох задаются основные стили
+ чтобы они не перезатерли мисксы убираем их наверх
+*/
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/section-subtitle_theme_dark.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/section-title_theme_dark.css);
+
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__item/cards__item.css);
@@ -32,6 +44,7 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/kaufman/__section-subtitle/kaufman__section-subtitle.css);
 @import url(../blocks/kaufman/__table-cell/__table-cell.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/kaufman/kaufman.css);
@@ -56,15 +69,12 @@
 @import url(../blocks/resources/__title/resources__title.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/section-subtitle_theme_dark.css);
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/section-title_theme_dark.css);
+
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
-@import url(../blocks/table/__heading/table_heading_theme_dark.css);
+@import url(../blocks/table/__heading/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/__text/table_text_theme_dark.css);
+@import url(../blocks/table/__text/table__text_theme_dark.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/techniques/__subtitle/techniques__subtitle.css);
 @import url(../blocks/techniques/__title/techniques__title.css);

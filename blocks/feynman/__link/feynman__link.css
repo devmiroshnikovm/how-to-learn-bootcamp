@@ -4,7 +4,10 @@
   font-size: 36px;
   font-weight: normal;
   position: absolute;
-  bottom: calc(890px / 2);
+
+  /* bottom: calc(890px / 2); */
+  bottom: 445px;
+
   right: 48px;
 
   color: #2f80ed;

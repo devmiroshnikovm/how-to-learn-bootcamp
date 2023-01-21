@@ -5,5 +5,5 @@
   position: absolute;
   bottom: 0px;
   right: 0px;
-  object-fit: contain;
+  object-fit: cover;
 }

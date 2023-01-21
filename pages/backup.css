@@ -1,0 +1,14 @@
+@import url(../vendor/normalize.css);
+
+/*
+у текстовых элементов мы сбрасываем отступы
+section-title
+section-subtitle
+ - это основные блоки в которох задаются основные стили
+ чтобы они не перезатерли мисксы убираем их наверх
+*/
+
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-title/section-title.css);

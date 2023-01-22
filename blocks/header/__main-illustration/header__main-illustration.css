@@ -6,4 +6,5 @@
   bottom: 0px;
   right: 0px;
   object-fit: cover;
+  z-index: -1;
 }

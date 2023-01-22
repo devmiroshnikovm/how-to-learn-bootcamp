@@ -6,7 +6,7 @@
   position: absolute;
 
   /* bottom: calc(890px / 2); */
-  bottom: 445px;
+  top: 50%;
 
   right: 48px;
 
